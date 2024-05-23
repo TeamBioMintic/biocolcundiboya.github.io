@@ -1,10 +1,3 @@
-/**
-* Template Name: Serenity
-* Template URL: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -95,7 +88,7 @@ h6 {
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
-  line-height: 0;
+  line-height: 0;  
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -356,7 +349,7 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/4.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -140px;
