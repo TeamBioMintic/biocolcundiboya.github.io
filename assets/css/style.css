@@ -77,6 +77,7 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+/* Header styles */
 #header {
   height: 70px;
   z-index: 997;
@@ -88,14 +89,14 @@ h6 {
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
-  line-height: 0;  
+  line-height: 1;  
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #3c4133;
+  color: #daac17;
   text-decoration: none;
 }
 
@@ -103,6 +104,79 @@ h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+}
+
+#header .navbar {
+  display: flex;
+  align-items: center;
+}
+
+#header .navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+#header .navbar ul li {
+  position: relative;
+}
+
+#header .navbar ul li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #158806;
+  transition: 0.3s;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+#header .navbar ul li a:hover, 
+#header .navbar ul li a.active {
+  color: #0713c0a1;
+  box-shadow: 0px 2px 15px rgba(179, 6, 6, 0.1); /* Shadow effect on hover */
+}
+
+#header .navbar .mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  #header .container {
+    flex-direction: column;
+  }
+  #header .logo h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    line-height: 1.2;  
+  }
+  #header .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  #header .navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  #header .navbar ul li {
+    width: 100%;
+  }
+  #header .navbar ul li a {
+    padding: 10px 20px;
+    width: 100%;
+  }
+  #header .navbar .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #555;
+  }
 }
 
 /*--------------------------------------------------------------
