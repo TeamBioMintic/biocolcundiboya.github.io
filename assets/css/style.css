@@ -64,22 +64,21 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
-@media (min-width: 320px) {
-  #header .container {
-    height: 80px;
-    width: 100%;
-    background-color: white;
-    border-radius: 15px;
-  }
 
 
   /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
   /* Header styles */
+  
+  @media (min-width: 320px) {
+    #header .container {
+      height: 80px;
+      width: 100%;
+      background-color: white;
+      border-radius: 15px;
+    }
+
   @media (max-width: 991px) {
     #header .container {
       flex-direction: column;
