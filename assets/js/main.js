@@ -1,10 +1,4 @@
-/**
-* Template Name: Serenity
-* Template URL: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -97,6 +91,18 @@
     this.classList.toggle('bi-x')
   })
 
+
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const navbar = document.querySelector('#navbar ul');
+
+    mobileNavToggle.addEventListener('click', () => {
+      navbar.classList.toggle('show');
+    });
+  });
+
+  
   /**
    * Mobile nav dropdowns activate
    */
