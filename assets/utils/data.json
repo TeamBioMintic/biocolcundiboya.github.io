@@ -1,0 +1,502 @@
+[
+    {
+        "ID": "1",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Copetón",
+        "Nombre_Cientifico": "Zonotrichia capensis",
+        "Habitat": "Bogota, Cundinamarca, Colombia",
+        "Latitud": "4.771852",
+        "Longitud": "-74.102461",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/376719651/large.jpg"
+    },
+    {
+        "ID": "2",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Golondrina Blanquiazul",
+        "Nombre_Cientifico": "Pygochelidon cyanoleuca",
+        "Habitat": "Choachi, Cundinamarca, Colombia",
+        "Latitud": "4.557822",
+        "Longitud": "-73.907838",
+        "Imagen": "https://static.inaturalist.org/photos/347883045/large.jpeg"
+    },
+    {
+        "ID": "3",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Guacharaca Colombiana",
+        "Nombre_Cientifico": "Ortalis columbiana",
+        "Habitat": "Nocaima, Cundinamarca, Colombia",
+        "Latitud": "5.058428",
+        "Longitud": "-74.405622",
+        "Imagen": "https://static.inaturalist.org/photos/177808076/large.jpeg"
+    },
+    {
+        "ID": "4",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Mayo",
+        "Nombre_Cientifico": "Turdus ignobilis",
+        "Habitat": "Soacha, Cundinamarca, Colombia",
+        "Latitud": "4.606032",
+        "Longitud": "-74.298647",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/212940748/large.jpg"
+    },
+    {
+        "ID": "5",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Colibrí Chico",
+        "Nombre_Cientifico": "Colibri thalassinus",
+        "Habitat": "Ubaque, Cundinamarca, Colombia",
+        "Latitud": "4.488701",
+        "Longitud": "-73.995463",
+        "Imagen": "https://static.inaturalist.org/photos/373503469/large.jpeg"
+    },
+    {
+        "ID": "6",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Turpial Cabecirrojo",
+        "Nombre_Cientifico": "Icterus auricapillus",
+        "Habitat": "Buena Vista, Boyaca, Colombia",
+        "Latitud": "5.511958",
+        "Longitud": "-73.941674",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/71335995/large.jpg"
+    },
+    {
+        "ID": "7",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Zorzalito Sombrío",
+        "Nombre_Cientifico": "Catharus fuscater",
+        "Habitat": "Garagoa, Boyaca, Colombia",
+        "Latitud": "5.087493",
+        "Longitud": "-73.312553",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/87621133/original.jpg"
+    },
+    {
+        "ID": "8",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Martín Pescador Mediano",
+        "Nombre_Cientifico": "Chloroceryle amazona",
+        "Habitat": "San Luis de Gaceno, Boyaca, Colombia",
+        "Latitud": "4.810727",
+        "Longitud": "-73.155132",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/258979013/original.jpg"
+    },
+    {
+        "ID": "9",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Atrapamoscas Cuidapuentes",
+        "Nombre_Cientifico": "Sayornis nigricans",
+        "Habitat": "Santa Maria, Boyaca, Colombia",
+        "Latitud": "4.844697",
+        "Longitud": "-73.224144",
+        "Imagen": "https://static.inaturalist.org/photos/111660138/large.jpeg"
+    },
+    {
+        "ID": "10",
+        "Tipo": "Ave",
+        "Nombre_Comun": "Saltapared Común",
+        "Nombre_Cientifico": "Troglodytes aedon",
+        "Habitat": "Santa Sofia, Boyaca, Colombia",
+        "Latitud": "5.713961",
+        "Longitud": "-73.602068",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/335668100/large.jpeg"
+    },
+    {
+        "ID": "11",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Estrella Del Paramo",
+        "Nombre_Cientifico": "Paepalanthus columbiensis",
+        "Habitat": "Chaochi, Cundinamarca, Colombia",
+        "Latitud": "4.561454",
+        "Longitud": "-74.001084",
+        "Imagen": "https://static.inaturalist.org/photos/349223506/large.jpg"
+    },
+    {
+        "ID": "12",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Chicalá",
+        "Nombre_Cientifico": "Tecoma stans",
+        "Habitat": "Bogota, Cundinamarca, Colombia",
+        "Latitud": "4.641569",
+        "Longitud": "-74.14241",
+        "Imagen": "https://static.inaturalist.org/photos/367321618/large.jpg"
+    },
+    {
+        "ID": "13",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Frailejón",
+        "Nombre_Cientifico": "Espeletia schultzii",
+        "Habitat": "Junin, Cundinamarca, Colombia",
+        "Latitud": "4.623853",
+        "Longitud": "-73.724997",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/231394358/large.jpeg"
+    },
+    {
+        "ID": "14",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Musgo Birrete",
+        "Nombre_Cientifico": "Polytrichum juniperinum",
+        "Habitat": "La Calera, Cundinamarca, Colombia",
+        "Latitud": "4.801775",
+        "Longitud": "-73.984618",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/384560385/large.jpeg"
+    },
+    {
+        "ID": "15",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Orquidea",
+        "Nombre_Cientifico": "Maxillaria brachybulbon",
+        "Habitat": "San Francisco, Cundinamarca, Colombia",
+        "Latitud": "5.040889",
+        "Longitud": "-74.242296",
+        "Imagen": "https://static.inaturalist.org/photos/36643756/large.jpeg"
+    },
+    {
+        "ID": "16",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Laurel de Cera",
+        "Nombre_Cientifico": "Morella pubescens",
+        "Habitat": "Ciénega, Boyaca, Colombia",
+        "Latitud": "5.396757",
+        "Longitud": "-73.241587",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/377843015/large.jpg"
+    },
+    {
+        "ID": "17",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Orquidea",
+        "Nombre_Cientifico": "Cattleya warscewiczii",
+        "Habitat": "Moniquira, Boyaca, Colombia",
+        "Latitud": "5.909092",
+        "Longitud": "-73.589917",
+        "Imagen": "https://static.inaturalist.org/photos/362994275/large.jpeg"
+    },
+    {
+        "ID": "18",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Musgo Plateado",
+        "Nombre_Cientifico": "Bryum argenteum",
+        "Habitat": "San Mateo, Boyaca, Colombia",
+        "Latitud": "6.448333",
+        "Longitud": "-72.559444",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/37446311/large.jpg"
+    },
+    {
+        "ID": "19",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Frailejón",
+        "Nombre_Cientifico": "Espeletia murilloi",
+        "Habitat": "Ventaquemada, Boyaca, Colombia",
+        "Latitud": "5.412708",
+        "Longitud": "-73.54804",
+        "Imagen": "https://static.inaturalist.org/photos/253953503/original.jpeg"
+    },
+    {
+        "ID": "20",
+        "Tipo": "Flora",
+        "Nombre_Comun": "Guamo",
+        "Nombre_Cientifico": "Inga affinis",
+        "Habitat": "Villa de Leyva, Boyaca, Colombia",
+        "Latitud": "5.6567",
+        "Longitud": "-73.511314",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/49832292/original.jpeg"
+    },
+    {
+        "ID": "21",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Chucha Orejinegra",
+        "Nombre_Cientifico": "Didelphis marsupialis",
+        "Habitat": "Facatativa, Cundinamarca, Colombia",
+        "Latitud": "4.385535",
+        "Longitud": "-74.387695",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/69504377/medium.jpg"
+    },
+    {
+        "ID": "22",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Ardilla de Cola Roja",
+        "Nombre_Cientifico": "Sciurus granatensis",
+        "Habitat": "Mesitas del colegio, Cundinamarca, Colombia",
+        "Latitud": "4.60022",
+        "Longitud": "-74.39345",
+        "Imagen": "https://static.inaturalist.org/photos/135884334/medium.jpeg"
+    },
+    {
+        "ID": "23",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Murciélago Acampador Oscuro",
+        "Nombre_Cientifico": "Uroderma bilobatum",
+        "Habitat": "Nocaima, Cundinamarca, Colombia",
+        "Latitud": "5.069457",
+        "Longitud": "-74.380305",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/69759/medium.jpg"
+    },
+    {
+        "ID": "24",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Comadreja Cola Larga",
+        "Nombre_Cientifico": "Neogale frenata",
+        "Habitat": "Suesca, Cundinamarca, Colombia",
+        "Latitud": "5.145912",
+        "Longitud": "-73.776665",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/15955272/medium.jpeg"
+    },
+    {
+        "ID": "25",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Ñeque",
+        "Nombre_Cientifico": "Dasyprocta punctata",
+        "Habitat": "Tena, Cundinamarca, Colombia",
+        "Latitud": "4.654749",
+        "Longitud": "-74.391173",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/25796566/large.jpg"
+    },
+    {
+        "ID": "26",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Venado de Cola Blanca",
+        "Nombre_Cientifico": "Odocoileus virginianus",
+        "Habitat": "Cocuy, Boyaca, Colombia",
+        "Latitud": "6.389098",
+        "Longitud": "-72.355977",
+        "Imagen": "https://static.inaturalist.org/photos/193095719/large.jpg"
+    },
+    {
+        "ID": "27",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Zorro Gris",
+        "Nombre_Cientifico": "Urocyon cinereoargenteus",
+        "Habitat": "Garagoa, Boyaca, Colombia",
+        "Latitud": "5.127226",
+        "Longitud": "-73.319404",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/253289317/original.jpeg"
+    },
+    {
+        "ID": "28",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Murciélago Frugívoro Gigante",
+        "Nombre_Cientifico": "Artibeus lituratus",
+        "Habitat": "Moniquira, Boyaca, Colombia",
+        "Latitud": "5.877823",
+        "Longitud": "-73.574208",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/1561871/large.jpg"
+    },
+    {
+        "ID": "29",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Tamandúa",
+        "Nombre_Cientifico": "Tamandúa Mexicana",
+        "Habitat": "Otanche, Boyaca, Colombia",
+        "Latitud": "5.834166",
+        "Longitud": "-74.261944",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/180703681/large.jpeg"
+    },
+    {
+        "ID": "30",
+        "Tipo": "Mamifero",
+        "Nombre_Comun": "Ardilla de Cola Roja",
+        "Nombre_Cientifico": "Sciurus granatensis",
+        "Habitat": "Raquira, Boyaca, Colombia",
+        "Latitud": "5.473342",
+        "Longitud": "-73.704433",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/294415624/large.jpg"
+    },
+    {
+        "ID": "31",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Sapo del Obispo",
+        "Nombre_Cientifico": "Rhinella alata",
+        "Habitat": "La Vega, Cundinamarca, Colombia",
+        "Latitud": "5.028335",
+        "Longitud": "-74.326797",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/179030781/large.jpg"
+    },
+    {
+        "ID": "32",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana Venenosa de Rayas Amarillas ",
+        "Nombre_Cientifico": "Dendrobates truncatus",
+        "Habitat": "Nilo, Cundinamarca, Colombia",
+        "Latitud": "4.220133",
+        "Longitud": "-74.688403",
+        "Imagen": "https://static.inaturalist.org/photos/263539843/original.jpeg"
+    },
+    {
+        "ID": "33",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana Terrestre del Napo",
+        "Nombre_Cientifico": "Adenomera hylaedactyla",
+        "Habitat": "San Pedro Jagua, Cundinamarca, Colombia",
+        "Latitud": "4.705809",
+        "Longitud": "-73.299238",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/56956714/large.jpeg"
+    },
+    {
+        "ID": "34",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana cohete de palma",
+        "Nombre_Cientifico": "Rheobates palmatus",
+        "Habitat": "Supatá, Cundinamarca, Colombia",
+        "Latitud": "5.040889",
+        "Longitud": "-74.242296",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/374147819/large.jpeg"
+    },
+    {
+        "ID": "35",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana Platanera de Ojos Pálidos",
+        "Nombre_Cientifico": "Boana platanera",
+        "Habitat": "Supatá, Cundinamarca, Colombia",
+        "Latitud": "5.052329",
+        "Longitud": "-74.279186",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/379365170/large.jpg"
+    },
+    {
+        "ID": "36",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana Sabanera",
+        "Nombre_Cientifico": "Dendropsophus molitor",
+        "Habitat": "Gachantivá, Boyacá, Colombia",
+        "Latitud": "5.74244",
+        "Longitud": "-73.52075",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/327298899/original.jpeg"
+    },
+    {
+        "ID": "37",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana de Cristal de Puntos Amarillos",
+        "Nombre_Cientifico": "Rulyrana flavopunctata",
+        "Habitat": "Santa María, Boyaca, Colombia",
+        "Latitud": "4.856869",
+        "Longitud": "-73.264212",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/59932860/original.jpg"
+    },
+    {
+        "ID": "38",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Sapo Gigante",
+        "Nombre_Cientifico": "Rhinella marina",
+        "Habitat": "San Luís de Gaceno, Boyacá, Colombia",
+        "Latitud": "4.842767",
+        "Longitud": "-73.180721",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/69213771/large.jpeg"
+    },
+    {
+        "ID": "39",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana Punteada",
+        "Nombre_Cientifico": "Boana punctata",
+        "Habitat": "San Luís de Gaceno, Boyacá, Colombia",
+        "Latitud": "4.851678",
+        "Longitud": "-73.169724",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/117461764/original.jpeg"
+    },
+    {
+        "ID": "40",
+        "Tipo": "Anfibios",
+        "Nombre_Comun": "Rana Gladiadora ",
+        "Nombre_Cientifico": "Boana boans",
+        "Habitat": "Santa María, Boyaca, Colombia",
+        "Latitud": "4.856738",
+        "Longitud": "-73.264329",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/59932851/large.jpg"
+    },
+    {
+        "ID": "41",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Lagartija Coliazul",
+        "Nombre_Cientifico": "Tretioscincus bifasciatus",
+        "Habitat": "Apulo, Cundinamarca, Colombia",
+        "Latitud": "4.531663",
+        "Longitud": "-74.588372",
+        "Imagen": "https://static.inaturalist.org/photos/210891168/large.jpg"
+    },
+    {
+        "ID": "42",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Serpiente Sabanera",
+        "Nombre_Cientifico": "Atractus crassicaudatus",
+        "Habitat": "Cajicá, Cundinamarca, Colombia",
+        "Latitud": "4.943096",
+        "Longitud": "-74.008797",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/374261421/large.jpeg"
+    },
+    {
+        "ID": "43",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Camaleón de Páramo",
+        "Nombre_Cientifico": "Anolis heterodermus",
+        "Habitat": "Guasca, Cundinamarca, Colombia",
+        "Latitud": "4.794586",
+        "Longitud": "-73.908739",
+        "Imagen": "https://static.inaturalist.org/photos/324606340/large.jpeg"
+    },
+    {
+        "ID": "44",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Lagarto Collarejo",
+        "Nombre_Cientifico": "Stenocercus trachycephalus",
+        "Habitat": "Soacha, Cundinamarca, Colombia",
+        "Latitud": "4.573059",
+        "Longitud": "-74.202643",
+        "Imagen": "https://static.inaturalist.org/photos/384653999/large.jpeg"
+    },
+    {
+        "ID": "45",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Iguana Verde",
+        "Nombre_Cientifico": "Iguana iguana",
+        "Habitat": "Viota, Cundinamarca, Colombia",
+        "Latitud": "4.437323",
+        "Longitud": "-74.521815",
+        "Imagen": "https://static.inaturalist.org/photos/260476949/large.jpeg"
+    },
+    {
+        "ID": "46",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Abaniquillos",
+        "Nombre_Cientifico": "Anolis",
+        "Habitat": "Garagoa, Boyaca, Colombia",
+        "Latitud": "5.0944",
+        "Longitud": "-73.299713",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/363412312/large.jpg"
+    },
+    {
+        "ID": "47",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Lagarto Arcoiris",
+        "Nombre_Cientifico": "Diploglossus monotropis",
+        "Habitat": "Muzo, Boyacá, Colombia",
+        "Latitud": "5.54612",
+        "Longitud": "-74.10476",
+        "Imagen": "https://static.inaturalist.org/photos/333244643/large.jpeg"
+    },
+    {
+        "ID": "48",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Lagartija Bombillo Estriada",
+        "Nombre_Cientifico": "Riama striata",
+        "Habitat": "Tuta, Boyacá, Colombia",
+        "Latitud": "5.708471",
+        "Longitud": "-73.214402",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/154768396/large.jpeg"
+    },
+    {
+        "ID": "49",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Serpiente Sabanera",
+        "Nombre_Cientifico": "Atractus crassicaudatus",
+        "Habitat": "Villa de Leyva, Boyacá, Colombia",
+        "Latitud": "5.674117",
+        "Longitud": "-73.517335",
+        "Imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/373503796/large.jpg"
+    },
+    {
+        "ID": "50",
+        "Tipo": "Reptiles",
+        "Nombre_Comun": "Lagarto Collarejo",
+        "Nombre_Cientifico": "Stenocercus trachycephalus",
+        "Habitat": "Villa de Leyva, Boyacá, Colombia",
+        "Latitud": "5.624589",
+        "Longitud": "-73.514341",
+        "Imagen": "https://static.inaturalist.org/photos/337831302/large.jpeg"
+    }
+]
