@@ -10,7 +10,9 @@
   <meta content="" name="keywords">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
@@ -22,6 +24,9 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
 </head>
 
@@ -58,15 +63,21 @@
         <div class="container">
           <div class="breadcrumb-hero">
             <h2>Cundinamarca</h2>
-            <p>En la región de Cundinamarca se encuentra una gran diversidad de flora y fauna. Esta zona es hogar de especies únicas y ecosistemas variados que contribuyen a la biodiversidad de Colombia.</p>
-            <p>Alrededor del 25% de las especies de aves que habitan en Colombia se encuentran en Cundinamarca. Además, la región alberga una gran cantidad de reptiles y anfibios.</p>
-            <p>Cundinamarca es conocida por sus hermosos paisajes naturales, que van desde las montañas de la cordillera hasta los valles y llanuras que caracterizan su geografía.</p>
+            <p>En la región de Cundinamarca se encuentra una gran diversidad de flora y fauna. Esta zona es hogar de
+              especies únicas y ecosistemas variados que contribuyen a la biodiversidad de Colombia.</p>
+            <p>Alrededor del 25% de las especies de aves que habitan en Colombia se encuentran en Cundinamarca. Además,
+              la región alberga una gran cantidad de reptiles y anfibios.</p>
+            <p>Cundinamarca es conocida por sus hermosos paisajes naturales, que van desde las montañas de la cordillera
+              hasta los valles y llanuras que caracterizan su geografía.</p>
           </div>
         </div>
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="gallery">
+    <div id="map" style="height: 400px;"></div>
+
+    <section class="gallery">      
+
       <!-- Image Box 1 -->
       <div class="item image-box">
         <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/20693/small.jpg" alt="Mirla Patinaranja">
@@ -83,7 +94,7 @@
         <p class="description">La paloma montera, conocida científicamente como Columba subvinacea, es una especie de ave endémica de Colombia.</p>
       </div>
 
-            <!-- Image Box 3 -->
+      <!-- Image Box 3 -->
       <div class="item image-box">
         <img src="https://static.inaturalist.org/photos/215474301/small.jpeg" alt="Serpiente sabanera">
       </div>
@@ -91,26 +102,78 @@
         <p class="description">La serpiente sabanera, científicamente conocida como Erythrolamprus aesculapii, es una especie de serpiente no venenosa que habita en los sabanales y zonas de pastizales de Colombia</p>
       </div>
 
-            <!-- Image Box 4 -->
+      <!-- Image Box 4 -->
       <div class="item image-box">
         <img src="https://static.inaturalist.org/photos/26555709/small.jpg" alt="Hongo matamoscas">
       </div>
       <div class="item description-box">
         <p class="description">El hongo matamoscas, científicamente conocido como Drosophila suzukii, es una especie de hongo que afecta principalmente a los frutos, especialmente a las fresas, frambuesas y moras.</p>
       </div>
-
-
     </section>
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <!-- Contenido del pie de página -->
-  </footer>
-  <!-- End Footer -->
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>Biodiversidad Colombia</h3>
+          <p>
+            Esta página web está dedicada a la conservación y promoción de la biodiversidad en Cundinamarca y Boyacá. Descubre la riqueza natural de estas regiones y aprende sobre las iniciativas para proteger su flora y fauna.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Enlaces Útiles</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Términos de Servicio</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contáctanos</h4>
+          <p>
+            Carrera 10 # 20-30 <br>
+            Bogotá, Cundinamarca<br>
+            Colombia <br>
+            <strong>Teléfono:</strong> +57 123 456 7890<br>
+            <strong>Email:</strong> info@biodiversidadcolombia.com<br>
+          </p>
+
+          <div class="social-links">
+            <a href="https://github.com/TeamBioMintic" class="github"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Nuestro Boletín</h4>
+          <p>
+            Suscríbete a nuestro boletín para recibir noticias y actualizaciones sobre la biodiversidad en Cundinamarca y Boyacá.
+          </p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Suscribirse">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center py-4">
+    Diseñado por <a href="https://github.com/TeamBioMintic">Team Mintic</a>
+  </div>
+</footer>
+<!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -124,6 +187,53 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Inicializar el mapa de Leaflet
+    var map = L.map('map').setView([4.60971, -74.08175], 6);
+
+    // Añadir la capa del mapa (puedes usar cualquier proveedor de mapas, aquí uso OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+    }).addTo(map);
+
+    // Añadir marcadores y eventos de clic para las imágenes
+    var species = [
+      {
+        name: "Mirla Patinaranja",
+        coords: [4.5, -74.0],
+        image: "https://inaturalist-open-data.s3.amazonaws.com/photos/20693/small.jpg"
+      },
+      {
+        name: "Palomita Montera",
+        coords: [4.7, -74.2],
+        image: "https://inaturalist-open-data.s3.amazonaws.com/photos/85633474/small.jpeg"
+      },
+      {
+        name: "Serpiente sabanera",
+        coords: [4.8, -73.9],
+        image: "https://static.inaturalist.org/photos/215474301/small.jpeg"
+      },
+      {
+        name: "Hongo matamoscas",
+        coords: [4.6, -74.1],
+        image: "https://static.inaturalist.org/photos/26555709/small.jpg"
+      }
+    ];
+
+    species.forEach(function(species) {
+      var marker = L.marker(species.coords).addTo(map);
+      marker.bindPopup("<b>" + species.name + "</b><br><img src='" + species.image + "' alt='" + species.name + "' style='width:100px;height:auto;'>");
+      document.querySelectorAll('.image-box img').forEach(function(img, index) {
+        img.addEventListener('click', function() {
+          map.setView(species[index].coords, 8);
+          marker.openPopup();
+        });
+      });
+    });
+
+  </script>
 
 </body>
 
