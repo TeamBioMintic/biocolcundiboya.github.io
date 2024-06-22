@@ -21,6 +21,12 @@
   <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
@@ -69,11 +75,12 @@
     </div>
   </div>
 </section><!-- End Breadcrumbs -->
-
+<div id="map" style="height: 400px;"></div>
 <section class="gallery">
+  
   <!-- Image Box 1 -->
   <div class="item image-box">
-      <img src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/5.jpg" alt="Descripción de la imagen 1">
+    <img id="image1" src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/5.jpg" alt="Descripción de la imagen 1">
   </div>
   <div class="item description-box">
       <p class="description">Cerca del 30 % de las especies de mamíferos y reptiles se encuentran en este departamento.</p>
@@ -81,7 +88,7 @@
 
   <!-- Image Box 2 -->
   <div class="item image-box">
-      <img src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/6.jpg" alt="Descripción de la imagen 2">
+      <img id="image2" src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/6.jpg" alt="Descripción de la imagen 2">
   </div>
   <div class="item description-box">
       <p class="description">El municipio de Santa María ha hecho el mayor número de observaciones de la región, lo que corresponde al 12 % de los datos disponibles.</p>
@@ -89,7 +96,7 @@
 
   <!-- Image Box 3 -->
   <div class="item image-box">
-      <img src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/7.jpg" alt="Descripción de la imagen 3">
+      <img id="image3" src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/7.jpg" alt="Descripción de la imagen 3">
   </div>
   <div class="item description-box">
       <p class="description">El municipio con mayor número de observaciones de aves migratorias es Santa María.</p>
@@ -97,7 +104,7 @@
 
   <!-- Image Box 4 -->
   <div class="item image-box">
-      <img src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/8.jpg" alt="Descripción de la imagen 4">
+      <img id="image4" src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/8.jpg" alt="Descripción de la imagen 4">
   </div>
   <div class="item description-box">
       <p class="description">Más del 45 % de las especies en alguna categoría de amenaza son endémicas para el país.</p>
@@ -105,7 +112,7 @@
 
   <!-- Image Box 5 -->
   <div class="item image-box">
-      <img src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/9.jpg" alt="Descripción de la imagen 5">
+      <img id="image5" src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/9.jpg" alt="Descripción de la imagen 5">
   </div>
   <div class="item description-box">
       <p class="description">Más de 450 especies se encuentran reguladas, por ser objeto de comercio.</p>
@@ -113,7 +120,7 @@
 
   <!-- Image Box 6 -->
   <div class="item image-box">
-      <img src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/10.jpg" alt="Descripción de la imagen 6">
+      <img id="image6" src="https://statics.sibcolombia.net/sib-resources/boyaca/img-destacados/10.jpg" alt="Descripción de la imagen 6">
   </div>
   <div class="item description-box">
       <p class="description">El 9 % de las especies presentes en Boyacá son endémicas en Colombia.</p>
@@ -195,6 +202,62 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
+  <script>
+    // Crear el mapa y establecer su vista inicial
+    var map = L.map('map').setView([5.453896, -73.367057], 8); // Coordenadas centrales de Boyacá
+  
+    // Añadir una capa de mapa (por ejemplo, OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+  
+    // Añadir marcadores al mapa
+    var markers = [
+      { coords: [5.453896, -73.367057], description: 'Descripción de la imagen 1' },
+      { coords: [5.547122, -73.369286], description: 'Descripción de la imagen 2' },
+      { coords: [5.628483, -73.176015], description: 'Descripción de la imagen 3' },
+      { coords: [5.121614, -73.176015], description: 'Descripción de la imagen 4' },
+      { coords: [5.453652, -73.176015], description: 'Descripción de la imagen 5' },
+      { coords: [5.284563, -73.176015], description: 'Descripción de la imagen 6' }
+      
+    ];
+  
+    markers.forEach(marker => {
+      L.marker(marker.coords).addTo(map)
+        .bindPopup(marker.description)
+        .openPopup();
+    });
+  </script>
+  <script>
+    // Función para centrar el mapa y abrir el marcador
+    function focusOnMarker(lat, lng, description) {
+      map.setView([lat, lng], 10);
+      L.popup()
+        .setLatLng([lat, lng])
+        .setContent(description)
+        .openOn(map);
+    }
+  
+    // Añadir eventos de clic a las imágenes
+    document.getElementById('image1').addEventListener('click', function() {
+      focusOnMarker(5.453896, -73.367057, 'Descripción de la imagen 1');
+    });
+    document.getElementById('image2').addEventListener('click', function() {
+      focusOnMarker(5.547122, -73.369286, 'Descripción de la imagen 2');
+    });
+    document.getElementById('image3').addEventListener('click', function() {
+      focusOnMarker(5.628483, -73.176015, 'Descripción de la imagen 3');
+    });
+    document.getElementById('image4').addEventListener('click', function() {
+      focusOnMarker(5.121614, -73.176015, 'Descripción de la imagen 4');
+    });
+    document.getElementById('image5').addEventListener('click', function() {
+      focusOnMarker(5.453652, -73.176015, 'Descripción de la imagen 5');
+    });
+    document.getElementById('image6').addEventListener('click', function() {
+      focusOnMarker(5.284563, -73.176015, 'Descripción de la imagen 6');
+    });
+  </script>
 
 </body>
 
