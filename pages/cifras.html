@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Cifras Anuales</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <h1 class="text-light"><a href="../index.html">BIO-COLOMBIAA</a></h1>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="boyaca.html">Boyaca</a></li>
+          <li><a href="cundinamarca.html">Cundinamarca</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a class="active" href="cifras.html">Cifras</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="breadcrumb-hero">
+        <div class="container">
+          <div class="breadcrumb-hero">
+            <h2>Cifras Anuales</h2>
+            <p>
+              Aquí se muestran las estadísticas anuales sobre la biodiversidad en Cundinamarca y Boyacá.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+<!-- ======= Estadísticas Anuales ======= -->
+<section id="estadisticas" class="estadisticas">
+  <div class="container">
+    <!-- Resumen Estadístico -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <h3>Resumen Estadístico</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="estadistica-box">
+              <h4>Total de aves:</h4>
+              <p id="total-aves">Cargando...</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="estadistica-box">
+              <h4>Total de insectos:</h4>
+              <p id="total-insectos">Cargando...</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="estadistica-box">
+              <h4>Aves en Cundinamarca:</h4>
+              <p id="aves-cundinamarca">Cargando...</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="estadistica-box">
+              <h4>Insectos en Boyacá:</h4>
+              <p id="insectos-boyaca">Cargando...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gráficas de Estadísticas -->
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <h3>Gráficas de Estadísticas</h3>
+        <div class="grafica-box">
+          <label for="tipo-grafica">Selecciona el tipo de gráfica:</label>
+          <select id="tipo-grafica" class="form-select">
+            <option value="torta">Gráfico de Torta</option>
+            <option value="barra">Gráfico de Barras</option>
+          </select>
+          <canvas id="grafica" class="chart mt-4" width="400" height="400"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gráfico de Tendencias -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-10">
+        <h3>Tendencias de Aves e Insectos</h3>
+        <canvas id="grafico-tendencias" class="chart mt-4" width="400" height="400"></canvas>
+      </div>
+    </div>
+  </div>
+</section><!-- End Estadísticas Anuales -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Biodiversidad Colombia</h3>
+            <p>
+              Esta página web está dedicada a la conservación y promoción de la biodiversidad en Cundinamarca y Boyacá.
+              Descubre la riqueza natural de estas regiones y aprende sobre las iniciativas para proteger su flora y
+              fauna.
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Enlaces Útiles</h4>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Términos de Servicio</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contáctanos</h4>
+            <p>
+              Carrera 10 # 20-30 <br>
+              Bogotá, Cundinamarca<br>
+              Colombia <br>
+              <strong>Teléfono:</strong> +57 123 456 7890<br>
+              <strong>Email:</strong> info@biodiversidadcolombia.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://github.com/TeamBioMintic" class="github"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Nuestro Boletín</h4>
+            <p>
+              Suscríbete a nuestro boletín para recibir noticias y actualizaciones sobre la biodiversidad en
+              Cundinamarca y Boyacá.
+            </p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Suscribirse">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center py-4">
+      Diseñado por <a href="https://github.com/TeamBioMintic">Team Mintic</a>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Tu script personalizado -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/estadisticas.js"></script>
+
+</body>
+</html>
